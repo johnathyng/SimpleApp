@@ -23,8 +23,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
   void initState() {
     super.initState();
     // Set up the text controllers with starting text
-    _nameController = TextEditingController(text: "Alex Doe"); // Start name
-    _designationController = TextEditingController(text: "Flutter Developer"); // Start designation
+    _nameController = TextEditingController(text: "John Doe"); // Start name
+    _designationController = TextEditingController(text: "Flutter Developer | CS Student"); // Start designation
     // Set up the focus nodes
     _nameFocusNode = FocusNode();
     _designationFocusNode = FocusNode(); // Init designation focus
